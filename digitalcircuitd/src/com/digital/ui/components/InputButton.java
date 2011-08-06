@@ -3,7 +3,7 @@
  *
  * 
  */
-package com.digital.ui.components;
+package org.digital.ui.components;
 
 import java.awt.Button;
 

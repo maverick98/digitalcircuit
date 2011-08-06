@@ -2,9 +2,9 @@
  * Created on Jul 22, 2007
  *
  */
-package com.digital.registry.exception;
+package org.digital.registry.exception;
 
-import com.digital.exceptions.DigException;
+import org.digital.exceptions.DigException;
 
 
 

@@ -3,7 +3,7 @@
  *
  * 
  */
-package com.digital.util;
+package org.digital.util;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package com.digital.circuit.test;
+package org.digital.circuit.test;
 
-import com.digital.circuit.SequentialCircuit;
-import com.digital.math.exceptions.InvalidUserInputException;
+import org.digital.circuit.SequentialCircuit;
+import org.digital.math.exceptions.InvalidUserInputException;
 
 public class SequentialCircuitTest 
 {

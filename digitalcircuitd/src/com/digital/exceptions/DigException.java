@@ -2,7 +2,7 @@
  * Created on Jun 27, 2007
  *
  */
-package com.digital.exceptions;
+package org.digital.exceptions;
 
 /**
  * @author msahu

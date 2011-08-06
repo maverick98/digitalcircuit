@@ -3,16 +3,16 @@
  *
  * 
  */
-package com.digital.registry;
+package org.digital.registry;
 
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import com.digital.logging.DigLogManager;
-import com.digital.logging.DigLogger;
-import com.digital.registry.exception.RegistryException;
+import org.digital.logging.DigLogManager;
+import org.digital.logging.DigLogger;
+import org.digital.registry.exception.RegistryException;
 
 
 /**

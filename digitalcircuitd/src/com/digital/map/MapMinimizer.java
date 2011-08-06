@@ -3,15 +3,15 @@
  *
  * 
  */
-package com.digital.map;
+package org.digital.map;
 
 import java.util.List;
 
-import com.digital.exceptions.DigException;
-import com.digital.exceptions.InitializationException;
-import com.digital.math.Number;
-import com.digital.math.exceptions.InvalidUserInputException;
-import com.digital.util.Displayer;
+import org.digital.exceptions.DigException;
+import org.digital.exceptions.InitializationException;
+import org.digital.math.Number;
+import org.digital.math.exceptions.InvalidUserInputException;
+import org.digital.util.Displayer;
 /**
  * @author msahu
  * 
@@ -62,7 +62,7 @@ public  abstract class MapMinimizer implements Minimizer
 
 				if(!isThisANumber)
 				{
-					throw new InvalidUserInputException("Expecting com.digital.math.Number found "+o.getClass());
+					throw new InvalidUserInputException("Expecting org.digital.math.Number found "+o.getClass());
 				}else
 				{
 					throw new InvalidUserInputException("number is outside the range ");

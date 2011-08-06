@@ -2,11 +2,11 @@
  * Created on Jul 7, 2007
 
  */
-package com.digital.ds.test;
+package org.digital.ds.test;
 
-import com.digital.ds.util.BinaryTreeCreator;
-import com.digital.exceptions.DigException;
-import com.digital.math.exceptions.InvalidUserInputException;
+import org.digital.ds.util.BinaryTreeCreator;
+import org.digital.exceptions.DigException;
+import org.digital.math.exceptions.InvalidUserInputException;
 
 /**
  * @author msahu

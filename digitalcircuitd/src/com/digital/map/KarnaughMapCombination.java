@@ -3,18 +3,18 @@
  *
  *
  */
-package com.digital.map;
+package org.digital.map;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.digital.logging.DigLogManager;
-import com.digital.logging.DigLogger;
-import com.digital.map.helper.PersistenceHelper;
-import com.digital.math.Combinator;
-import com.digital.math.Number;
-import com.digital.math.exceptions.InvalidNumberException;
-import com.digital.math.exceptions.InvalidUserInputException;
+import org.digital.logging.DigLogManager;
+import org.digital.logging.DigLogger;
+import org.digital.map.helper.PersistenceHelper;
+import org.digital.math.Combinator;
+import org.digital.math.Number;
+import org.digital.math.exceptions.InvalidNumberException;
+import org.digital.math.exceptions.InvalidUserInputException;
 
 /**
  * @author  msahu

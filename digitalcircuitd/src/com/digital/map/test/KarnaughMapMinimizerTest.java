@@ -3,19 +3,19 @@
  *
  * 
  */
-package com.digital.map.test;
+package org.digital.map.test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.digital.ds.util.BinaryTreeCreator;
-import com.digital.exceptions.DigException;
-import com.digital.logging.DigLogManager;
-import com.digital.logging.DigLogger;
-import com.digital.map.KarnaughMapMinimizer;
-import com.digital.map.Minimizer;
-import com.digital.math.Number;
-import com.digital.util.Displayer;
+import org.digital.ds.util.BinaryTreeCreator;
+import org.digital.exceptions.DigException;
+import org.digital.logging.DigLogManager;
+import org.digital.logging.DigLogger;
+import org.digital.map.KarnaughMapMinimizer;
+import org.digital.map.Minimizer;
+import org.digital.math.Number;
+import org.digital.util.Displayer;
 
 /**
  * @author msahu

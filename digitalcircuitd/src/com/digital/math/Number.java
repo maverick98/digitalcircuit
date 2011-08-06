@@ -3,15 +3,15 @@
  *
  * 
  */
-package com.digital.math;
+package org.digital.math;
 
 import java.io.Externalizable;
 import java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
 
-import com.digital.math.exceptions.InvalidNumberException;
-import com.digital.math.exceptions.InvalidUserInputException;
+import org.digital.math.exceptions.InvalidNumberException;
+import org.digital.math.exceptions.InvalidUserInputException;
 
 /**
  * @author msahu

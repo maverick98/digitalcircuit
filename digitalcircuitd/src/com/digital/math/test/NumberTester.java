@@ -3,12 +3,12 @@
  *
  * 
  */
-package com.digital.math.test;
+package org.digital.math.test;
 
-import com.digital.math.Number;
-import com.digital.math.exceptions.InvalidNumberException;
-import com.digital.math.exceptions.InvalidUserInputException;
-import com.digital.util.Displayer;
+import org.digital.math.Number;
+import org.digital.math.exceptions.InvalidNumberException;
+import org.digital.math.exceptions.InvalidUserInputException;
+import org.digital.util.Displayer;
 
 /**
  * @author msahu

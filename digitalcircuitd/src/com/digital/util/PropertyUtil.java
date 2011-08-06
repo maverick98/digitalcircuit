@@ -3,7 +3,7 @@
  *
  * 
  */
-package com.digital.util;
+package org.digital.util;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -12,8 +12,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-import com.digital.logging.DigLogManager;
-import com.digital.logging.DigLogger;
+import org.digital.logging.DigLogManager;
+import org.digital.logging.DigLogger;
 
 /**
  * @author msahu

@@ -3,7 +3,7 @@
  *
  * 
  */
-package com.digital.ds.util;
+package org.digital.ds.util;
 
 import java.awt.Graphics;
 import java.io.Externalizable;
@@ -19,20 +19,20 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-import com.digital.circuit.Element;
-import com.digital.circuit.Gate;
-import com.digital.circuit.Input;
-import com.digital.circuit.SequentialCircuit;
-import com.digital.ds.Expression;
-import com.digital.exceptions.DigException;
-import com.digital.exceptions.IllegalStateException;
-import com.digital.logging.DigLogManager;
-import com.digital.logging.DigLogger;
-import com.digital.math.Number;
-import com.digital.math.exceptions.InvalidUserInputException;
-import com.digital.registry.ServiceRegistry;
-import com.digital.registry.exception.RegistryException;
-import com.digital.ui.GUIConstants;
+import org.digital.circuit.Element;
+import org.digital.circuit.Gate;
+import org.digital.circuit.Input;
+import org.digital.circuit.SequentialCircuit;
+import org.digital.ds.Expression;
+import org.digital.exceptions.DigException;
+import org.digital.exceptions.IllegalStateException;
+import org.digital.logging.DigLogManager;
+import org.digital.logging.DigLogger;
+import org.digital.math.Number;
+import org.digital.math.exceptions.InvalidUserInputException;
+import org.digital.registry.ServiceRegistry;
+import org.digital.registry.exception.RegistryException;
+import org.digital.ui.GUIConstants;
 
 
 

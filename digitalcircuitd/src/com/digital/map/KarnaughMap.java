@@ -3,7 +3,7 @@
  *
  *
  */
-package com.digital.map;
+package org.digital.map;
 
 
 

@@ -2,7 +2,7 @@
  * Created on Jul 28, 2007
  *
  */
-package com.digital.ui;
+package org.digital.ui;
 
 import java.awt.Dimension;
 import java.awt.Graphics;

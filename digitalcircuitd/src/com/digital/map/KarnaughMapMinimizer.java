@@ -3,20 +3,20 @@
  *
  * 
  */
-package com.digital.map;
+package org.digital.map;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.digital.ds.util.BinaryTreeCreator;
-import com.digital.exceptions.DigException;
-import com.digital.logging.DigLogManager;
-import com.digital.logging.DigLogger;
-import com.digital.map.helper.PersistenceHelper;
-import com.digital.math.Number;
-import com.digital.registry.ServiceRegistry;
-import com.digital.ui.InternetView;
+import org.digital.ds.util.BinaryTreeCreator;
+import org.digital.exceptions.DigException;
+import org.digital.logging.DigLogManager;
+import org.digital.logging.DigLogger;
+import org.digital.map.helper.PersistenceHelper;
+import org.digital.math.Number;
+import org.digital.registry.ServiceRegistry;
+import org.digital.ui.InternetView;
 
 /**
  * 
@@ -29,7 +29,7 @@ import com.digital.ui.InternetView;
  * 
  * 
  *
- * @see com.digital.map.MapGenerator#generate()
+ * @see org.digital.map.MapGenerator#generate()
  * @author msahu
  * This is a singleton class 
  * 

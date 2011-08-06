@@ -2,16 +2,16 @@
  * Created on Jul 22, 2007
  *
  */
-package com.digital.ui.handler;
+package org.digital.ui.handler;
 
 import java.awt.Button;
 import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import com.digital.ui.GUIConstants;
-import com.digital.ui.InternetView;
-import com.digital.ui.components.InputButton;
+import org.digital.ui.GUIConstants;
+import org.digital.ui.InternetView;
+import org.digital.ui.components.InputButton;
 
 /**
  * @author msahu

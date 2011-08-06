@@ -2,11 +2,11 @@
  * Created on Jul 6, 2007
  *
  */
-package com.digital.map;
+package org.digital.map;
 
 import java.util.List;
 
-import com.digital.exceptions.DigException;
+import org.digital.exceptions.DigException;
 
 /**
  * @author  msahu

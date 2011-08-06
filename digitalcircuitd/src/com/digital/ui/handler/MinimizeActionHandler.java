@@ -3,14 +3,14 @@
  *
  * 
  */
-package com.digital.ui.handler;
+package org.digital.ui.handler;
 
 import java.awt.Button;
 import java.util.Observable;
 import java.util.Observer;
 
-import com.digital.engine.KMapEngine;
-import com.digital.ui.GUIConstants;
+import org.digital.engine.KMapEngine;
+import org.digital.ui.GUIConstants;
 
 /**
  * @author msahu

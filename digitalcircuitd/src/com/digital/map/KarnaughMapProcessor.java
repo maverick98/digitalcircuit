@@ -3,15 +3,15 @@
  *
  * 
  */
-package com.digital.map;
+package org.digital.map;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
 
-import com.digital.math.exceptions.InvalidNumberException;
-import com.digital.math.exceptions.InvalidUserInputException;
+import org.digital.math.exceptions.InvalidNumberException;
+import org.digital.math.exceptions.InvalidUserInputException;
 
 
 

@@ -3,7 +3,7 @@
  *
  * 
  */
-package com.digital.logging;
+package org.digital.logging;
 
 /**
  * @author msahu

@@ -1,5 +1,5 @@
 
-package com.digital.ui;
+package org.digital.ui;
 import java.applet.Applet;
 import java.awt.BorderLayout;
 import java.awt.Button;
@@ -14,17 +14,17 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import com.digital.ds.util.BinaryTreeCreator;
-import com.digital.exceptions.DigException;
-import com.digital.logging.DigLogManager;
-import com.digital.logging.DigLogger;
-import com.digital.math.Number;
-import com.digital.math.exceptions.InvalidNumberException;
-import com.digital.math.exceptions.InvalidUserInputException;
-import com.digital.ui.components.AlertPopup;
-import com.digital.ui.components.InputButton;
-import com.digital.ui.handler.ActionHandler;
-import com.digital.util.PropertyUtil;
+import org.digital.ds.util.BinaryTreeCreator;
+import org.digital.exceptions.DigException;
+import org.digital.logging.DigLogManager;
+import org.digital.logging.DigLogger;
+import org.digital.math.Number;
+import org.digital.math.exceptions.InvalidNumberException;
+import org.digital.math.exceptions.InvalidUserInputException;
+import org.digital.ui.components.AlertPopup;
+import org.digital.ui.components.InputButton;
+import org.digital.ui.handler.ActionHandler;
+import org.digital.util.PropertyUtil;
 
 
 

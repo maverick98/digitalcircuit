@@ -2,13 +2,13 @@
  * Created on Jun 17, 2007
  *
  */
-package com.digital.math.test;
+package org.digital.math.test;
 
 import java.util.List;
 
-import com.digital.math.Combinator;
-import com.digital.math.exceptions.InvalidUserInputException;
-import com.digital.util.Displayer;
+import org.digital.math.Combinator;
+import org.digital.math.exceptions.InvalidUserInputException;
+import org.digital.util.Displayer;
 /**
  * @author msahu
  * 

@@ -3,7 +3,7 @@
  *
  * 
  */
-package com.digital.map;
+package org.digital.map;
 
 import java.io.Externalizable;
 import java.io.IOException;

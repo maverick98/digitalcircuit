@@ -3,7 +3,7 @@
  *
  * 
  */
-package com.digital.exceptions;
+package org.digital.exceptions;
 
 /**
  * @author msahu

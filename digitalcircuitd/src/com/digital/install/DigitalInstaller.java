@@ -3,10 +3,10 @@
  *
  * 
  */
-package com.digital.install;
+package org.digital.install;
 
-import com.digital.exceptions.DigException;
-import com.digital.map.KarnaughMapMinimizer;
+import org.digital.exceptions.DigException;
+import org.digital.map.KarnaughMapMinimizer;
 
 /**
  * @author msahu

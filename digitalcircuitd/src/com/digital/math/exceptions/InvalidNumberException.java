@@ -3,8 +3,8 @@
  *
  * 
  */
-package com.digital.math.exceptions;
-import com.digital.exceptions.DigException;
+package org.digital.math.exceptions;
+import org.digital.exceptions.DigException;
 
 /**
  * @author msahu

@@ -3,12 +3,12 @@
  *
  * 
  */
-package com.digital.circuit;
+package org.digital.circuit;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.digital.math.exceptions.InvalidUserInputException;
+import org.digital.math.exceptions.InvalidUserInputException;
 
 /**
  * @author msahu

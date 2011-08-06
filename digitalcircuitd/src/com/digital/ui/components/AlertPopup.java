@@ -3,7 +3,7 @@
  *
  * 
  */
-package com.digital.ui.components;
+package org.digital.ui.components;
 
 import java.awt.Button;
 import java.awt.Frame;
@@ -14,7 +14,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-import com.digital.ui.GUIConstants;
+import org.digital.ui.GUIConstants;
 
 /**
  * @author msahu

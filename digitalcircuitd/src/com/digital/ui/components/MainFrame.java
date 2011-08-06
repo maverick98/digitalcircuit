@@ -2,7 +2,7 @@
  * Created on Aug 4, 2007
  *
  */
-package com.digital.ui.components;
+package org.digital.ui.components;
 
 import java.awt.Event;
 import java.awt.FileDialog;
@@ -24,16 +24,16 @@ import java.util.List;
 import java.util.Properties;
 import java.util.StringTokenizer;
 
-import com.digital.ds.util.BinaryTreeCreator;
-import com.digital.exceptions.DigException;
-import com.digital.map.KarnaughMapMinimizer;
-import com.digital.map.helper.PersistenceHelper;
-import com.digital.registry.ServiceRegistry;
-import com.digital.registry.exception.RegistryException;
-import com.digital.ui.GUIConstants;
-import com.digital.ui.InternetView;
-import com.digital.math.Number;
-import com.digital.math.exceptions.InvalidNumberException;
+import org.digital.ds.util.BinaryTreeCreator;
+import org.digital.exceptions.DigException;
+import org.digital.map.KarnaughMapMinimizer;
+import org.digital.map.helper.PersistenceHelper;
+import org.digital.registry.ServiceRegistry;
+import org.digital.registry.exception.RegistryException;
+import org.digital.ui.GUIConstants;
+import org.digital.ui.InternetView;
+import org.digital.math.Number;
+import org.digital.math.exceptions.InvalidNumberException;
 
 /**
  * @author msahu

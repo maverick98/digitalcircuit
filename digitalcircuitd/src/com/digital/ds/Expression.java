@@ -2,16 +2,16 @@
  * Created on Jul 6, 2007
  *
  */
-package com.digital.ds;
+package org.digital.ds;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.digital.circuit.Clubber;
-import com.digital.circuit.Element;
-import com.digital.circuit.SequentialCircuit;
-import com.digital.exceptions.IllegalStateException;
-import com.digital.math.exceptions.InvalidUserInputException;
+import org.digital.circuit.Clubber;
+import org.digital.circuit.Element;
+import org.digital.circuit.SequentialCircuit;
+import org.digital.exceptions.IllegalStateException;
+import org.digital.math.exceptions.InvalidUserInputException;
 
 /**
  * @author msahu

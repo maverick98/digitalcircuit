@@ -3,9 +3,9 @@
  *
  * 
  */
-package com.digital.ds;
+package org.digital.ds;
 
-import com.digital.math.exceptions.InvalidUserInputException;
+import org.digital.math.exceptions.InvalidUserInputException;
 
 /**
  * @author msahu

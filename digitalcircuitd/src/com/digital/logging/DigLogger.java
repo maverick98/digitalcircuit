@@ -3,7 +3,7 @@
  *
  * 
  */
-package com.digital.logging;
+package org.digital.logging;
 
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
@@ -14,7 +14,7 @@ import java.io.Writer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.digital.util.PropertyUtil;
+import org.digital.util.PropertyUtil;
 
 
 /**

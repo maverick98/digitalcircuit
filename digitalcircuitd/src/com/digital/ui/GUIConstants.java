@@ -1,4 +1,4 @@
-package com.digital.ui;
+package org.digital.ui;
 
 import java.awt.Color;
 
@@ -31,7 +31,7 @@ public interface GUIConstants
 	static  final String FILE_SEPARATOR="/";
 	
 
-	static final String TITLE = "Digital Circuit Design System 2.0         by  Manoranjan Sahu. http://www.geocities.com/abeautifulmind1998/digital.html";
+	static final String TITLE = "Digital Circuit Design System 2.0         by  Manoranjan Sahu. http://www.geocities.org/abeautifulmind1998/digital.html";
 
 	static final String INPUT_FILE = "Input file";
 

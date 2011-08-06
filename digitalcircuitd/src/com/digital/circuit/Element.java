@@ -1,6 +1,6 @@
-package com.digital.circuit;
+package org.digital.circuit;
 
-import com.digital.ds.DataStructureConstants;
+import org.digital.ds.DataStructureConstants;
 
 public abstract class Element implements Comparable
 {

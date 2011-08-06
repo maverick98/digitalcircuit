@@ -3,9 +3,9 @@
  *
  * 
  */
-package com.digital.ui.handler;
+package org.digital.ui.handler;
 
-import com.digital.ui.components.InputButton;
+import org.digital.ui.components.InputButton;
 
 /**
  * @author msahu

@@ -3,12 +3,12 @@
  *
  * 
  */
-package com.digital.ds.test;
+package org.digital.ds.test;
 
-import com.digital.circuit.SequentialCircuit;
-import com.digital.ds.Expression;
-import com.digital.exceptions.IllegalStateException;
-import com.digital.math.exceptions.InvalidUserInputException;
+import org.digital.circuit.SequentialCircuit;
+import org.digital.ds.Expression;
+import org.digital.exceptions.IllegalStateException;
+import org.digital.math.exceptions.InvalidUserInputException;
 
 /**
  * @author msahu

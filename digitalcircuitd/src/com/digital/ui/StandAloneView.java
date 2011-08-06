@@ -3,11 +3,11 @@
  *
  * 
  */
-package com.digital.ui;
+package org.digital.ui;
 
-import com.digital.logging.DigLogManager;
-import com.digital.logging.DigLogger;
-import com.digital.ui.components.MainFrame;
+import org.digital.logging.DigLogManager;
+import org.digital.logging.DigLogger;
+import org.digital.ui.components.MainFrame;
 
 /**
  * @author msahu

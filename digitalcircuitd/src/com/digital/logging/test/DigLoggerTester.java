@@ -3,10 +3,10 @@
  *
  * 
  */
-package com.digital.logging.test;
+package org.digital.logging.test;
 
-import com.digital.logging.DigLogManager;
-import com.digital.logging.DigLogger;
+import org.digital.logging.DigLogManager;
+import org.digital.logging.DigLogger;
 
 /**
  * @author msahu

@@ -3,7 +3,7 @@
  *
  * 
  */
-package com.digital.ds;
+package org.digital.ds;
 
 /**
  * @author msahu

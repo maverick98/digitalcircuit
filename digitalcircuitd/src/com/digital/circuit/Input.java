@@ -3,7 +3,7 @@
  *
  * 
  */
-package com.digital.circuit;
+package org.digital.circuit;
 
 
 /**

@@ -3,7 +3,7 @@
  *
  *
  */
-package com.digital.circuit;
+package org.digital.circuit;
 
 import java.awt.Graphics;
 import java.lang.reflect.InvocationTargetException;
@@ -11,7 +11,7 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.digital.ds.DataStructureConstants;
+import org.digital.ds.DataStructureConstants;
 
 /**
  * @author msahu

@@ -3,14 +3,14 @@
  *
  * 
  */
-package com.digital.math;
+package org.digital.math;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.digital.math.exceptions.InvalidNumberException;
-import com.digital.math.exceptions.InvalidUserInputException;
-import com.digital.util.Displayer;
+import org.digital.math.exceptions.InvalidNumberException;
+import org.digital.math.exceptions.InvalidUserInputException;
+import org.digital.util.Displayer;
 
 
 

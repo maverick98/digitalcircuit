@@ -1,13 +1,13 @@
-package com.digital.ui.handler;
+package org.digital.ui.handler;
 
 import java.awt.Button;
 import java.util.List;
 
-import com.digital.ds.util.BinaryTreeCreator;
-import com.digital.registry.ServiceRegistry;
-import com.digital.registry.exception.RegistryException;
-import com.digital.ui.GUIConstants;
-import com.digital.ui.InternetView;
+import org.digital.ds.util.BinaryTreeCreator;
+import org.digital.registry.ServiceRegistry;
+import org.digital.registry.exception.RegistryException;
+import org.digital.ui.GUIConstants;
+import org.digital.ui.InternetView;
 
 
 /*

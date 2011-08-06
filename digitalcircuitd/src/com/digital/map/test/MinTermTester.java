@@ -3,18 +3,18 @@
  *
  * 
  */
-package com.digital.map.test;
+package org.digital.map.test;
 
 import java.security.DigestException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.digital.exceptions.DigException;
-import  com.digital.math.Number;
-import com.digital.math.exceptions.InvalidNumberException;
-import com.digital.math.exceptions.InvalidUserInputException;
-import com.digital.map.MinTerm;
-import com.digital.util.Displayer;
+import org.digital.exceptions.DigException;
+import  org.digital.math.Number;
+import org.digital.math.exceptions.InvalidNumberException;
+import org.digital.math.exceptions.InvalidUserInputException;
+import org.digital.map.MinTerm;
+import org.digital.util.Displayer;
 /**
  * @author admin
  *

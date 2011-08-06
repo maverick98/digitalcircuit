@@ -2,7 +2,7 @@
  * Created on Jun 17, 2007
  *
  */
-package com.digital.map;
+package org.digital.map;
 
 import java.io.Externalizable;
 import java.io.IOException;
@@ -14,11 +14,11 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.digital.logging.DigLogManager;
-import com.digital.logging.DigLogger;
-import com.digital.math.Number;
-import com.digital.math.exceptions.InvalidNumberException;
-import com.digital.math.exceptions.InvalidUserInputException;
+import org.digital.logging.DigLogManager;
+import org.digital.logging.DigLogger;
+import org.digital.math.Number;
+import org.digital.math.exceptions.InvalidNumberException;
+import org.digital.math.exceptions.InvalidUserInputException;
 
 /**
  * @author msahu

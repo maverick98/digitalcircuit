@@ -3,9 +3,9 @@
  *
  * 
  */
-package com.digital.util.test;
+package org.digital.util.test;
 
-import com.digital.util.PropertyUtil;
+import org.digital.util.PropertyUtil;
 
 /**
  * @author msahu

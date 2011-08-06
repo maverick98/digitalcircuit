@@ -1,4 +1,4 @@
-package com.digital.circuit;
+package org.digital.circuit;
 
 public class GateCalculator 
 {

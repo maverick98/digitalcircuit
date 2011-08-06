@@ -2,7 +2,7 @@
  * Created on Jul 6, 2007
  *
  */
-package com.digital.exceptions;
+package org.digital.exceptions;
 
 /**
  * @author admin

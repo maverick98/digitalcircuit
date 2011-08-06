@@ -3,7 +3,7 @@
  *
  * 
  */
-package com.digital.map.helper;
+package org.digital.map.helper;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -15,11 +15,11 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import com.digital.map.KarnaughMap;
-import com.digital.map.KarnaughMapConstants;
-import com.digital.map.MinTermContainer;
-import com.digital.ui.GUIConstants;
-import com.digital.util.PropertyUtil;
+import org.digital.map.KarnaughMap;
+import org.digital.map.KarnaughMapConstants;
+import org.digital.map.MinTermContainer;
+import org.digital.ui.GUIConstants;
+import org.digital.util.PropertyUtil;
 
 /**
  * @author msahu

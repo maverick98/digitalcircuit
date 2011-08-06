@@ -3,10 +3,10 @@
  *
  * 
  */
-package com.digital.map;
+package org.digital.map;
 
-import com.digital.math.exceptions.InvalidNumberException;
-import com.digital.math.exceptions.InvalidUserInputException;
+import org.digital.math.exceptions.InvalidNumberException;
+import org.digital.math.exceptions.InvalidUserInputException;
 
 /**
  * @author  msahu

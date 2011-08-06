@@ -3,11 +3,11 @@
  *
  * 
  */
-package com.digital.ui.gui;
+package org.digital.ui.gui;
 
 import java.awt.Graphics;
 
-import com.digital.ui.GUIConstants;
+import org.digital.ui.GUIConstants;
 
 /**
  * @author msahu

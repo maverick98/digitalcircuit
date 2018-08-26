@@ -69,7 +69,7 @@ public class InputButton extends Button implements Comparable
 							?
 										false
 									:
-										myButt.getOperand()==herButt.getOperand()
+										myButt.getOperand()==((InputButton)herObject).getOperand()
 							;			
 		
 	}

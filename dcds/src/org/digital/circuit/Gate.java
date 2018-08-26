@@ -21,12 +21,12 @@ import org.digital.ds.DataStructureConstants;
 public class Gate extends Element
 {
 	
-	private static final String GUIUtil = "com.digital.ui.gui.GUIUtil";
+	private static final String GUIUtil = "org.digital.ui.gui.GUIUtil";
 	private static Class GUIUtilClazz = null;
 	private static Object GUIUtilInstance=null;
 	
 	
-	private static final String GateCalculator = "com.digital.circuit.GateCalculator";
+	private static final String GateCalculator = "org.digital.circuit.GateCalculator";
 	private static Class GateCalculatorClazz = null;
 	private static Object GateCalculatorInstance=null;
 	

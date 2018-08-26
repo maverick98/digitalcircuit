@@ -1,8 +1,4 @@
-/**
- * @license
- * Copyright (c) 2014, 2018, Oracle and/or its affiliates.
- * The Universal Permissive License (UPL), Version 1.0
- */
+
 /*
  * Your application specific code will go here
  */
@@ -20,6 +16,12 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojknockout'],
       self.appName = ko.observable("App Name");
       // User Info used in Global Navigation area
       self.userLogin = ko.observable("john.hancock@oracle.com");
+
+	  var c = document.getElementById("myCanvas");
+	// var c = $("#myCanvas");
+	
+var ctx = c.getContext("2d");
+drawANDGate(ctx,100,75,30,1,1,"pink");
 
       // Footer
       function footerLink(name, id, linkTarget) {

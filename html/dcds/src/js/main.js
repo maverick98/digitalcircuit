@@ -1,8 +1,4 @@
-/**
- * @license
- * Copyright (c) 2014, 2018, Oracle and/or its affiliates.
- * The Universal Permissive License (UPL), Version 1.0
- */
+
 'use strict';
 
 /**
@@ -31,7 +27,9 @@ requirejs.config(
     'signals': 'libs/js-signals/signals',
     'customElements': 'libs/webcomponents/custom-elements.min',
     'proj4': 'libs/proj4js/dist/proj4-src',
-    'css': 'libs/require-css/css',
+    'css': 'libs/require-css/css', 
+    'gateUtil':'gateUtil'
+
   }
   //endinjector
   ,
@@ -52,13 +50,14 @@ requirejs.config(
  * by the modules themselves), we are listing them explicitly to get the references to the 'oj' and 'ko'
  * objects in the callback
  */
-require(['ojs/ojcore', 'knockout', 'appController', 'ojs/ojknockout', 'ojs/ojbutton', 'ojs/ojtoolbar', 'ojs/ojmenu'],
-  function (oj, ko, app) { // this callback gets executed when all required modules are loaded
+require(['ojs/ojcore', 'knockout', 'appController', 'gateUtil','ojs/ojknockout', 'ojs/ojbutton', 'ojs/ojtoolbar', 'ojs/ojmenu'],
+  function (oj, ko, app,gateUtil) { // this callback gets executed when all required modules are loaded
     
     $(function() {
       
       function init() {
         // Bind your ViewModel for the content of the whole page body.
+	
         ko.applyBindings(app, document.getElementById('globalBody'));
       }
 

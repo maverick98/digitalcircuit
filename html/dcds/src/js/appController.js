@@ -21,7 +21,8 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojknockout'],
 	// var c = $("#myCanvas");
 	
 var ctx = c.getContext("2d");
-drawORGate(ctx,100,75,30,1,1,"pink");
+drawANDGate(ctx,400,200,30,"pink");
+drawNANDGate(ctx,500,200,30,"pink");
 
       // Footer
       function footerLink(name, id, linkTarget) {

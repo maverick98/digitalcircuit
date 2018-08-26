@@ -24,6 +24,9 @@ var ctx = c.getContext("2d");
 drawANDGate(ctx,400,200,30,"pink");
 drawNANDGate(ctx,500,200,30,"pink");
 
+drawORGate(ctx,600,200,30,"pink");
+drawNORGate(ctx,700,200,30,"pink");
+
       // Footer
       function footerLink(name, id, linkTarget) {
         this.name = name;

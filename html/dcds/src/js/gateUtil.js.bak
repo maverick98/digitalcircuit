@@ -28,7 +28,7 @@ function drawANDGate(ctx, x , y , r,up,down,color){
 }
 function drawORGate(ctx,x,y,r,up,down,color){
 		ctx.beginPath();
-     //drawLine(ctx,x,y,x+10,y);
+     drawLine(ctx,x,y,x+10,y);
 		 //drawArc(x+10,y-15,40,30,90,180);
 		  ctx.arc(x+10 , y-15, r, 0.5 *Math.PI, 1.5*Math.PI);
 	    

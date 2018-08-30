@@ -2,8 +2,8 @@
 /*
  * Your application specific code will go here
  */
-define(['ojs/ojcore', 'knockout', 'ojs/ojknockout'],
-  function(oj, ko) {
+require(['ojs/ojcore', 'knockout','jquery','gateUtil', 'ojs/ojknockout'],
+  function(oj, ko,$,gateUtil) {
      function ControllerViewModel() {
        var self = this;
 
@@ -18,14 +18,9 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojknockout'],
       self.userLogin = ko.observable("john.hancock@oracle.com");
 
 	  var c = document.getElementById("myCanvas");
-	// var c = $("#myCanvas");
 	
-var ctx = c.getContext("2d");
-drawANDGate(ctx,400,200,30,"pink");
-drawNANDGate(ctx,500,200,30,"pink");
+	
 
-drawORGate(ctx,600,200,30,"pink");
-drawORGate(ctx,700,200,30,"pink");
 
       // Footer
       function footerLink(name, id, linkTarget) {

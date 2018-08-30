@@ -1,4 +1,4 @@
-requirejs.undef('app');
+requirejs.undef('appController');
 'use strict';
 
 /**
@@ -30,8 +30,7 @@ requirejs.config(
     'css': 'libs/require-css/css', 
     'gateUtil':'gateUtil',
 	'expression':'expression',
-	'stack':'stack',
-    'appController':'appController'
+    'app':'appController'
   }
   //endinjector
   ,
@@ -52,10 +51,26 @@ requirejs.config(
  * by the modules themselves), we are listing them explicitly to get the references to the 'oj' and 'ko'
  * objects in the callback
  */
-require(['ojs/ojcore','jquery','knockout', 'appController', 'gateUtil','expression','stack','ojs/ojknockout', 'ojs/ojbutton', 'ojs/ojtoolbar', 'ojs/ojmenu'],
-  function (oj,$,ko, appController) { // this callback gets executed when all required modules are loaded
+require(['ojs/ojcore','jquery','knockout', 'app', 'gateUtil','expression','ojs/ojknockout', 'ojs/ojbutton', 'ojs/ojtoolbar', 'ojs/ojmenu'],
+  function (oj, ko,$, app) { // this callback gets executed when all required modules are loaded
     
-   
+    $(function() {
+      
+      function init() {
+        // Bind your ViewModel for the content of the whole page body.
 	
+        ko.applyBindings(app, document.getElementById('globalBody'));
+      }
+
+      // If running in a hybrid (e.g. Cordova) environment, we need to wait for the deviceready 
+      // event before executing any code that might interact with Cordova APIs or plugins.
+      if ($(document.body).hasClass('oj-hybrid')) {
+        document.addEventListener("deviceready", init);
+      } else {
+        init();
+      }
+
+    });
+
   }
 );
